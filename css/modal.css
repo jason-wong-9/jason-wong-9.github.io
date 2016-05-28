@@ -1,0 +1,49 @@
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px; /* Adjusts for spacing */
+}
+
+/*modal parts*/
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+#cubefield-modal .modal-content {
+    border: 5px solid #1F1F1F;
+}
+
+#letschill-modal .modal-content {
+    border: 5px solid #399998;
+}
+
+#mycfl-modal .modal-content {
+    border: 5px solid #631A18;
+}
+
+#moscrop-modal .modal-content {
+    border: 5px solid #9BCDFD;
+}
+
+#course-modal .modal-content {
+    border: 5px solid #389839;
+}
+
+#mind-modal .modal-content {
+    border: 5px solid #CA6ACA;
+}
+
+.modal-body {
+    margin-left: 10px;
+}

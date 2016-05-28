@@ -1,0 +1,422 @@
+<html>
+<head>
+	<title>Jason Wong's Portfolio</title>
+
+
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+
+
+	<!-- Custom css -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <link rel="stylesheet" href="css/modal.css" type="text/css">
+
+    <link rel="stylesheet" href="css/materialize-input.css" type="text/css">
+
+    <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<section id ="coverpage">
+		<div id="intro" class="scroll">
+			<h1>JASON WONG</h1>
+			<h3>Developer. Student. Astrophile</h3>
+			<a href="#profile"><button class="mybutton">ENTER MY WORLD</button></a>
+		</div>
+
+	</section>
+
+	<div class="sticky-wrapper">
+		<header>
+			<nav class="navbar navbar-default">
+	  			<div class="container-fluid">
+	    			<div class="navbar-header">
+	    				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+	      				</button>
+	      				<a class="navbar-brand" href="#coverpage">
+	        				<img alt="Brand" src="img/nav-icon.jpg" height="50px" style="margin-top: -15px;">
+	      				</a>
+	    			</div>
+	    			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	    				<ul class="scroll nav navbar-nav navbar-right">
+	        				<li>
+	        					<a href="#profile">ABOUT</a>
+	        				</li>
+	        				<li>
+	        					<a href="#project">PROJECTS</a>
+	        				</li>
+	        				<li>
+	        					<a href="#contact">CONTACT</a>
+	        				</li>
+	      				</ul>
+	    			</div>
+	  			</div>
+			</nav>
+		</header>
+	</div>
+
+
+	<section id="profile" style="padding-top: 50px;">
+		
+		<div id = "about" class="container">
+
+        	<div class="row featurette">
+        		
+
+	            <div class="col-md-7 col-md-push-5 text-center" style="margin-top: 5%;">
+	                <p class="lead">My name is Jason Wong, a current second year student at UBC seeking to find the best solutions to make life happier and simpler.</p>
+	                <p class="lead">My laziness fuels my innovative ideas and immerses myself in the dimension where my creativity runs wild. I embrace my engineering journey with challenges and thrills from Hackathons, contests, and other adventurous experiences.</p>
+	                <p class="lead">I enjoy the tapping my head into the musical world through singing, as well as the indefinite astrospace where answers emerge to feed my insatiable curiosity I thrive to build a more convenient, exciting and imaginative world.</p>
+	                <a href= "docs/current_resume.pdf" target="_blank">
+		                <button class="mybutton" style=" margin-top: 20px; margin-bottom: 70px;">
+		                	RESUME
+		                </button>
+		            </a>
+	            </div>
+	            <div class="col-md-5 col-md-pull-7" style="margin-bottom: 70px; margin-top: 20px;">
+	                <img class="featurette-image img-responsive center-block" width = "75%"src="img/profile_pic.jpg">
+	            </div>
+	            
+      		</div>
+		</div>
+	</section>
+
+	<section id="project" style="padding-top: 70px;">
+		<div class="container">
+			<div class="row">
+				<h1 class="text-center" style="padding-bottom: 50px;">RECENT PROJECTS</h1>
+
+				
+			</div>
+		
+			<div id="projectcontent" class="row">
+				<div class="col-md-4 col-sm-6 thumbnail" >
+					<a href="#" data-toggle="modal" data-target="#cubefield-modal">
+						<img src="img/cube-field/cube-field-0.png" onmouseover="this.src='img/cube-field/cube-field-1.png'" onmouseout="this.src='img/cube-field/cube-field-0.png'"/>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 thumbnail">
+					<a href="#" data-toggle="modal" data-target="#letschill-modal">
+						<img src="img/letschill/Lets Chill.png" onmouseover="this.src='img/letschill/Lets Chill1.png'" onmouseout="this.src='img/letschill/Lets Chill.png'"/>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 thumbnail nomargin">
+					<a href="#" data-toggle="modal" data-target="#mycfl-modal">
+						<img src="img/mycfl/MyCFL.png" onmouseover="this.src='img/mycfl/MyCFL1.png'" onmouseout="this.src='img/mycfl/MyCFL.png'"/>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 thumbnail">
+					<a href="#" data-toggle="modal" data-target="#moscrop-modal">
+						<img src="img/moscrop/Moscrop.png" onmouseover="this.src='img/moscrop/Moscrop1.png'" onmouseout="this.src='img/moscrop/Moscrop.png'"/>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 thumbnail">
+					<a href="#" data-toggle="modal" data-target="#course-modal">
+						<img src="img/course-watcher/Course Watcher.png" onmouseover="this.src='img/course-watcher/Course Watcher_1.png'" onmouseout="this.src='img/course-watcher/Course Watcher.png'"/>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 thumbnail nomargin">
+					<a href="#" data-toggle="modal" data-target="#mind-modal">
+						<img src="img/mind-the-gap/Mind the Gap.png" onmouseover="this.src='img/mind-the-gap/Mind the Gap1.png'" onmouseout="this.src='img/mind-the-gap/Mind the Gap.png'"/>
+					</a>
+				</div>
+			</div>
+		
+		<br/>
+		</div>
+	</section>
+
+	<!-- CubeField Modal -->
+    <div id="cubefield-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                	<h4 class="modal-title"><b>Cube Field</b></h4>
+                </div>
+                <div class="modal-body">
+                    <p>An Android application that is created during nwHacks in a team of three. It allows the user to navigate through 3D space with randomly-generated cubes in a Virtual Reality simulation. This is made purely with Java along with our own implementation of perspective projection that converts a bunch of 3D vectors onto a 2D plane.</p>
+                    <br/>
+                    <p><b>Programming Language:</b> Java, Android</p>
+                    <p><b>Mathematics:</b> Linear Algebra, Perspective Projection</p>
+                    
+                    <br/>
+
+                    <img class="img-responsive center-block" src="img/modals/cubefield-modal.jpg"/>
+                    <br/>
+                    
+                    <div class="text-center" style="margin-bottom: 10px; margin-top: 10px;">
+                    	<a href="https://github.com/jason-wong-9/CubeField" target="_blank">
+                    		<button class="mybutton">Explore More</button>
+                    	</a>
+                    </div>
+         
+                    
+               
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- LetsChill Modal -->
+    <div id="letschill-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                	<h4 class="modal-title"><b>LetsChill</b></h4>
+                </div>
+                <div class="modal-body">
+                    <p>A web app to find a meetup location for two people in a local area. Given two locations, it will find options in between them and suggests cafes, restaurants, shopping center, theatres, etc for users. Build to provide convenient ways to plan group activities, meet-ups, hangouts, dates and family outings.</p>
+                    <br/>
+                    <p><b>Frontend:</b> HTML5, CSS3, Google Material Design, Javascript</p>
+                    <p><b>API Used:</b> Google AutoCompleteAPI, Google Places API, GoogleMaps API</p>
+                    
+                    <br/>
+
+                    <img class="img-responsive center-block" src="img/modals/letschill-modal.gif"/>
+                    <br/>
+                    <div class="text-center" style="margin-bottom: 10px; margin-top: 10px;">
+                    	<a href="https://github.com/aggarwalneeraj141/LetsChill" target="_blank">
+                    		<button class="mybutton">Explore More</button>
+                    	</a>
+                    </div>
+                    
+               
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- myCFL Modal -->
+    <div id="mycfl-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                	<h4 class="modal-title"><b>MyCFL</b></h4>
+                </div>
+                <div class="modal-body">
+                    <p>A web application created during SportsHack in a team of three. It searches for a CFL athlete who is most similar to the user's attributes (e.g. height, weight, and location) and encourages new football fans to follow and displays the latest feeds from the athlete's social medias.</p>
+                    <br/>
+                    <p><b>Frontend:</b> HTML5, CSS3, Google Material Design, Javascript</p>
+                    <p><b>Backend:</b> Parse (Database), Python (Cosine Similarity for data analysis), Flask (API)</p>
+                    
+                    <br/>
+                    <img class="img-responsive center-block" src="img/modals/mycfl-modal.gif"/>
+                   
+                    <br/>
+                    <div class="text-center" style="margin-bottom: 10px; margin-top: 10px;">
+                    	<a href="https://github.com/jason-wong-9/SportsHack2015" target="_blank">
+                    		<button class="mybutton">Explore More</button>
+                    	</a>
+                    </div>
+                    
+               
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Moscrop Modal -->
+    <div id="moscrop-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                	<h4 class="modal-title"><b>Moscrop Secondary School Official Application</b></h4>
+                </div>
+                <div class="modal-body">
+                    <p>Collaborated with a current student from Moscrop Secondary School to develop an iOS application using Swift that displays school's information, teachers' contacts as well as recent clubs and events updates. Improved user experience by adding different themes to allow users to customize their personal app interface.</p>
+                    <br/>
+                    <p><b>Programming Language:</b> Swift</p>
+                    <p><b>Backend:</b> Parse (Database)</p>
+                    
+                    <br/>
+                    <img class="img-responsive center-block" src="img/modals/moscrop-modal.gif"/>
+                    
+                    <br/>
+                    <div class="text-center" style="margin-bottom: 10px; margin-top: 10px;">
+                    	<a href="https://github.com/moscrop-secondary-school/moscrop-secondary-ios" target="_blank">
+                    		<button class="mybutton">Explore More</button>
+                    	</a>
+                    </div>
+                    
+               
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Course Watcher Modal -->
+    <div id="course-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                	<h4 class="modal-title"><b>Course Watcher</b></h4>
+                </div>
+                <div class="modal-body">
+                    <p>A MEAN-stack web application that serves the purpose of watching courses on UBC SSC, in which it informs users through emails when there is a seat open for a specific course. I adapted socket.io to implement real-time capability when adding and deleting new user requests.</p>
+                    <br/>
+                    <p><b>Frontend:</b> HTML5, CSS3, AngularJS</p>
+                    <p><b>Backend:</b> Node.js, Express.Js, MongoDB</p>
+                    
+                    <br/>
+                    <img class="img-responsive center-block" src="img/modals/coursewatcher-modal.gif"/>
+                    <br/>
+                    <div class="text-center" style="margin-bottom: 10px; margin-top: 10px;">
+                    	<a href="https://github.com/jason-wong-9/Course-Watcher-Website" target="_blank">
+                    		<button class="mybutton">Explore More</button>
+                    	</a>
+                    </div>
+                    
+               
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Mind the Gap Modal -->
+    <div id="mind-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                	<h4 class="modal-title"><b>Mind the Gap</b></h4>
+                </div>
+                <div class="modal-body">
+                    <p>An android application build in the CPSC 210 course. It displays the rail system in London along with real time data. It accurately pinpoints the location of each train stations with the integration of OsmDroid library.</p>
+                    <br/>
+                    <p><b>Programming Language:</b> Java</p>
+                    <p><b>API Used:</b> TransportforLondon API</p>
+                    
+                    <br/>
+
+                    <img class="img-responsive center-block" src="img/modals/mindthegap.png" width="350px"/>
+                    
+               
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+	<section id="contact" class="container-fluid text-center" style="padding-top: 70px;">
+		<h1>GET IN TOUCH</h1>
+		<h5 style="margin-bottom:50px; margin-top:30px">GIVE ME A SHOUTOUT, GIVE ME A CHANCE TO ENTER YOUR WORLD.</h5>
+		<form>
+    		<div class="group">      
+				<input type="text" required>
+				<span class="highlight"></span>
+				<span class="bar"></span>
+				<label>Name</label>
+    		</div>
+      
+    		<div class="group">      
+    			<input type="text" required>
+				<span class="highlight"></span>
+				<span class="bar"></span>
+				<label>Email</label>
+    		</div>
+
+    		<div class="group">      
+    			<input type="text" required>
+				<span class="highlight"></span>
+				<span class="bar"></span>
+				<label>Message</label>
+    		</div>
+    
+  		</form>
+  		<br/>
+  		<button class="mybutton" style="margin-bottom: 50px;">
+  			SEND
+  		</button>
+	</section>
+
+	<section id="footer" class="container-fluid text-center">
+		<div style="padding-top: 50px;">
+			<div>
+				<ul id="social">
+					<li>
+						<a href= "https://github.com/jason-wong-9" target="_blank">
+							<img src="img/icons/github_full.png" width="30px" height="30px" onmouseover="this.src='img/icons/github_click.png'" onmouseout="this.src='img/icons/github_full.png'"/>
+						</a>
+					</li>
+					<li>
+						<a href= "mailto:j.wong.9@alumni.ubc.ca" target="_top">
+							<img src="img/icons/email_full.png" width="30px" height="30px" onmouseover="this.src='img/icons/email_click.png'" onmouseout="this.src='img/icons/email_full.png'"/>
+						</a>
+					</li>
+					<li>
+						<a href= "https://ca.linkedin.com/in/jasonkcwong" target="_blank">
+							<img src="img/icons/Linkedin_full.png" width="30px" height="30px" onmouseover="this.src='img/icons/Linkedin_click.png'" onmouseout="this.src='img/icons/Linkedin_full.png'"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<h5>Made with <span  id="heart"class="fa fa-heart fa-2x animated pulse"></span> in Vancouver</h5>
+			<h5 style="margin-bottom: 50px;">&copy; 2016 Jason Wong</h5>
+		</div>
+	</section>
+
+	<!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<script src="js/jquery.sticky.js"></script>
+	<!-- <script src="js/smoothscroll.js"></script> -->
+	<script src="js/main.js"></script>
+
+
+</body>
+</html>
